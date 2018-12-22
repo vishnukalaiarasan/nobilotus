@@ -9,20 +9,20 @@ if(num1>num2)
 {
 if(num1>num3)
 {
-printf("num1 is greatest");
+printf("%d",num1);
 }
 else
 {
-printf("num3 is greatest");
+printf("%d",num3);
 }
 }
 else if(num2>num3)
 {
-printf("num2 is greatest");
+printf("%d",num2);
 }
 else
 {
-printf("num3 is greatest");
+printf("%d",num3);
 }
 getch();
 }
