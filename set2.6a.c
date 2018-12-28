@@ -18,7 +18,7 @@ void main()
  }
  if(flag==0)
  {
- pritnf("\n%d",i);
+ printf("\n%d",i);
  }
  flag=0;
  }
