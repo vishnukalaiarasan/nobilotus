@@ -1,0 +1,35 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int number,total=0,i,j,rem,count=0,sum=1,num1,num2;
+clrscr();
+scanf("%d",&number);
+num1=number;
+num2=number;
+while(num1!=0)
+{
+count++;
+num1=num1/10;
+}
+while(num2!=0)
+{
+rem=num2%10;
+for(i=0;i<count;i++)
+{
+sum=sum*rem;
+}
+total=total+sum;
+num2=num2/10;
+sum=1;
+}
+if(number==total)
+{
+printf("yes");
+}
+else
+{
+printf("no");
+}
+getch();
+}
