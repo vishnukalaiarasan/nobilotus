@@ -3,17 +3,21 @@
 int main()
 {
    char a[10];
-   int i,flag=0;
+   int i,flag=0,count=0;
    scanf("%s",a);
    for(i=0;a[i]!='\0';i++)
    {
-       if(((a[i]>='A')&&(a[i]<='Z'))||((a[i]>='a')&&(a[i]<='z')))
+       count++;
+   }
+   for(i=0;a[i]!='\0';i++)
+   {
+       if(((a[i]<=0)&&(a[i]>=0))||(a[i]=='.'))
        {
-           flag=1;
+           flag++;
        }
        
    }
-   if(flag!=1)
+   if(flag==count)
    {
        printf("yes");
    }
