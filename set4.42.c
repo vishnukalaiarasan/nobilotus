@@ -6,11 +6,11 @@ int i,count=0;
 gets(a);
 for(i=0;a[i]!='\0';i++)
 {
-if(a[i]==' ')
+if((a[i]==' ')&&(a[i+1]!=' '))
 {
 count++;
 }
 }
-printf("%d",count+1);
+printf("%d",count);
 return 0;
 }
