@@ -3,7 +3,7 @@ int main()
 {
 int i,j=0,b;
 char a[0];
-gets(a);
+scanf("%s",a);
 for(i=0;a[i]!='\0';i++)
 b=i;
 for(i=0;i<b;i++)
