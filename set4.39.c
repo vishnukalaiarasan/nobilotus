@@ -2,17 +2,15 @@
 #include<conio.h>
 void main()
 {
-int a[10],i,c,n,x;
+int a[10],i,c,x;
 clrscr();
-printf("no of element");
-scanf("%d",&n);
 printf("\narray elements");
-for(i=0;i<n;i++)
+for(i=0;i<10;i++)
 {
 scanf("%d",&a[i]);
 }
 c=a[0];
-for(i=0;i<n;i++)
+for(i=0;i<10;i++)
 {
 if(a[i]>c)
 {
