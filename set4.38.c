@@ -1,9 +1,6 @@
 #include <stdio.h>
 #include <string.h>
- 
-/* Function Prototype */
 void swap(int*, int *);
- 
 void main()
 {
     int num1, num2;
