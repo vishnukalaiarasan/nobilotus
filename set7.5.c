@@ -2,6 +2,9 @@
 #include<conio.h>
 void main()
 {
-    if(printf("hello"))
+    char a[100];
+    scanf("%s",a);
+    if(puts(a))
     getch();
 }
+
